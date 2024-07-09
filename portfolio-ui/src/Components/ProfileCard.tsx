@@ -3,10 +3,10 @@
 
 function ProfileCard() {
     return (
-        <div className="card">
-            <img src="https://via.placeholder.com/150" alt="profile" />
-            <h2>John Doe</h2>
-            <p>Software Engineer</p>
+        <div className="container mx-auto px-4 bg-white">
+
+            <h2 className="text-3xl font-bold underline">Prama Yudhistira</h2>
+            <p>BSCS @ Georgia Tech</p>
         </div>
     );    
 }
